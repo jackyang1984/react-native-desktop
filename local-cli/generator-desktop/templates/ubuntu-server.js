@@ -121,7 +121,6 @@ if (process.argv.indexOf('--pipe') != -1) {
   process.argv.forEach((val, index) => {
     if (val == '--port') {
       port = process.argv[++index];
-      break;
     }
   });
 
